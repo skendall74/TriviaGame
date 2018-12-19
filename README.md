@@ -8,6 +8,6 @@ Instructions:
 
 You will be given random questions during a specific amount of time.  See how many questions you can get right in a certain time period and beat the computer, winning the game. 
 
-Click on the following link to preview the completed assignment. https://skendall74.github.io/Trivia-Game/
+Click on the following link to preview the completed assignment. https://skendall74.github.io/TriviaGame/
 
 Built With HTML5 CSS3 Twitter-Bootstrap - Framework JavaScript - JavaScript Library - Stop Timers.
