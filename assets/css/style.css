@@ -1,0 +1,37 @@
+/* Jquery Project*/
+
+/* HTML, BODY CSS, JS*/
+
+.jumbotron {
+    background-image: url("../images/jumbotron-bg.jpg");
+    background-size: cover;
+    
+  }
+  
+  .jumbotron h1 {
+    color: #000;
+    text-shadow: 3px 3px #fff;
+  
+  }
+  
+  .instructions {
+    text-align: center; 
+  }
+  
+  .img-thumbnail    {
+    -webkit-box-shadow: none;
+    border: none;
+  }
+  
+  p {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .winloss {
+      margin: 30px 0px 40px 80px;
+  }
