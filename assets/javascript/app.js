@@ -68,7 +68,7 @@ var messages = {
     correct: "Yes, that's right! Home Run!",
     incorrect: "No, that's not it. Strike Out!",
     endTime: "Out of time! Out of the Game!",
-    finished: "Alright! Let's see your batting average."
+    finished: "Alright! Let's see your batting average"
 }
 
 $('#startBtn').on('click', function () {
