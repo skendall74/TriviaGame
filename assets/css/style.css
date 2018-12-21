@@ -2,36 +2,81 @@
 
 /* HTML, BODY CSS, JS*/
 
-.jumbotron {
-    background-image: url("../images/jumbotron-bg.jpg");
-    background-size: cover;
-    
-  }
-  
-  .jumbotron h1 {
-    color: #000;
-    text-shadow: 3px 3px #fff;
-  
-  }
-  
-  .instructions {
-    text-align: center; 
-  }
-  
-  .img-thumbnail    {
-    -webkit-box-shadow: none;
-    border: none;
-  }
-  
-  p {
-    text-align: left;
-    margin-bottom: 10px;
-  }
+body{
+  background: url('../images/wrigley.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/wrigley.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/wrigley.jpg', sizingMethod='scale');
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+}
 
-  h2 {
-    margin-bottom: 20px;
-  }
+header{
+	margin-bottom: 20px;
+}
 
-  .winloss {
-      margin: 30px 0px 40px 80px;
-  }
+.cubs	{
+	width: auto;
+	height: 100px;
+	background-color: Blue;
+	color: white;
+	border: solid #CC3433;
+  	border-width: 2px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0px 30px 0px 30px;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary,.reset{
+	background-color: #CC3433;
+	color: white;
+	font-family: 'Concert One', cursive;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #CC3433;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+  	width: 700px;
+  	background: rgba(0,0,0, .3);
+}
+
+h2, #message, #finalMessage{
+	font-family: 'Concert One', cursive;
+}
+
+.thisChoice:hover{
+	background-color: #CC3433;
+	color: white;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+
+	.cubs	{
+		font-size: 30px;
+	}
+}
