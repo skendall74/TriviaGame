@@ -136,6 +136,13 @@ function showCountdown() {
     }
 }
 
+var arr = ["butts", "meows", "friends"];
+var arr2 =  [];
+arrforEach(function (str){
+    var element = str = "is a decent language";
+    arr2.push(element);
+});
+
 function answerPage() {
     $('#currentQuestion').empty();
     $('.thisChoice').empty(); //Clears question page
