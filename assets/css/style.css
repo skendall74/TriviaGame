@@ -23,6 +23,7 @@ header{
 .cubs	{
 	width: auto;
 	height: 100px;
+	margin: 0 auto;
 	background-color: Blue;
 	color: white;
 	border: solid #CC3433;
@@ -30,7 +31,6 @@ header{
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
-	margin: 0px 30px 0px 30px;
 	padding-top: 10px;
 	font-family: 'Montserrat', sans-serif;
 }
