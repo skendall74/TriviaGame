@@ -2,17 +2,19 @@
 
 /* HTML, BODY CSS, JS*/
 
+
 body {
-  margin-top: 75px;
-  margin-bottom: 75px;
-  text-align: center;
-  background: url("../images/wrigley.jpg") no-repeat center center fixed;
+  background: url("../images/wrigley.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/stadium.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/stadium.jpg', sizingMethod='scale');
+}
+
+body {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   color: white;
